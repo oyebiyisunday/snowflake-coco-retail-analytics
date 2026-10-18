@@ -11,7 +11,7 @@ You need a Snowflake account where Cortex is enabled, a user who can use `ACCOUN
 3. Create `ACME_REGION_READER` when two groups must see different rows. Creating a role is an account job.
 4. Set the user’s default role. Changing a user is an account job. The agent uses that default role.
 
-`ACME_ENGINEER` creates the database, so it owns the schemas. Ownership lets that role create tables, stages, file formats, tasks, the agent, and the evaluation objects.
+The account owner creates the database and hands it to `ACME_ENGINEER`. That role then owns the schemas, so it can create tables, stages, file formats, tasks, the agent, and the evaluation objects.
 
 Write these names down first. Use them everywhere this runbook says `ACME`.
 
@@ -995,4 +995,4 @@ snow dbt execute -c acme acme_analytics run
 | Eval `003001` | Snowsight is not using `ACME_ENGINEER`, the owner of `SEMANTIC` |
 | Eval opens a custom-metric form | Cancel. Use manual run, v3, two metrics |
 | Streamlit merge button fails | Do not click it. Use the Production tab |
-| Pipeline Health errors on interactive tables | Expected. That table is not part of this runbook |
+| Pipeline Health errors on interactive tables | Stay on the dynamic-tables section. This guide does not create an interactive table |

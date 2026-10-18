@@ -2,7 +2,7 @@
 
 Snowflake Cortex Code (CoCo), Snowflake CoWork, Snowflake CLI, Cortex Agent, Cortex Analyst, Cortex Search, MCP, dbt Projects on Snowflake, and Streamlit in Snowflake.
 
-Retail analytics for a ski and snowboard catalog: a profiling plugin, a cohort model, a Business Insights agent, and the screens from the run. The office runbook is [REAL-PROJECT.md](REAL-PROJECT.md).
+Retail analytics for a ski and snowboard catalog: a profiling plugin, a cohort model, a Business Insights agent, and the screenshots below. The office guide is [REAL-PROJECT.md](REAL-PROJECT.md). It uses the sample name ACME. The names in this README are the objects in the screenshots.
 
 ## Screens
 
