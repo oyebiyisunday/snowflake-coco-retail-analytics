@@ -1,0 +1,9 @@
+# Credentials stay on the machine that runs the project
+**/.snowflake/
+**/config.toml
+**/.env
+**/.env.*
+**/*_secrets.*
+**/*.pem
+**/*.p8
+**/*.key
